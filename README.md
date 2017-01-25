@@ -34,7 +34,7 @@ I'm trying to be as idiomatic as possible. However, this is going to be a learni
 
 ### Make it as simple as possible.
 
-I7 excels at prototyping. Therefore I'm going to write a minimum viable game first. No side-track will be allowed. Nor will I add extensions unless they're vital for getting the prototype done.
+I7 excels at prototyping. Therefore I'm going to write a minimum viable game first. No side-tracking will be allowed. Nor will I add extensions unless they're vital for getting the prototype done.
 
 ### Write the through-line in scene form.
 
