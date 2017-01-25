@@ -10,7 +10,7 @@ It's an AIF game. The "IF" part of the acronym stands for Interactive Fiction. I
 
 ### So it's, like, porn?
 
-Very much like porn, yes. Specifically, while the player character is female, she's very much a caricature viewed through a male-gaze lens: you're basically leading an unrealistically perky schoolgirl into total debauchery. It's a sex fantasy of someone who, while physically adult, plays into all the many tropes of teen-porn stories.
+Very much like porn, yes. Specifically, while the player character is female, she's very much a caricature viewed through a male-gaze lens: you're basically leading an unrealistically perky schoolgirl into total debauchery. It's a sex fantasy depiction of someone who, while physically adult and ostensibly self-willed, plays into all the many tropes of teen-porn stories.
 
 ### That sounds misogynistic as _shit_.
 
@@ -50,4 +50,4 @@ No thoughts, as of yet. True, I7 executables have grown in size, but it may be p
 
 ## How can I contribute?
 
-Well... um... do you want to? I'd be a bit flummoxed, but certainly grateful that you'd care. Just let me know what you want to do and we'll figure something out.
+Well... um... do you want to? I'd be a bit flummoxed, but certainly grateful that you'd care. Just let me know what you want to do and we'll figure something out. I believe GitHub offers a messaging service.
