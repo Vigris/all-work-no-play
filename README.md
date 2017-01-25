@@ -1,7 +1,7 @@
 # All Work, No Play
 ## An AIF game written in Inform 7
 
-This is my first attempt at placing something on GitHub, so I'll be using it not only to finally get something out the door, but to learn the basics of general version control and (hopefully) online collaboration.
+This is my first attempt at working with a project on GitHub, so I'll be using it not only to finally get something out the door, but to learn the basics of general version control and (hopefully) online collaboration.
 
 ## Overview
 ### What kind of game is this?
@@ -39,6 +39,8 @@ The first step will involve creating a bunch of scenes and then stringing them t
 ### How will you handle conversation?
 
 This is a toughie. All conversation (other than quips) will be bounded by a conversation _scene_, to limit them and ensure they count. As for the system itself, it's going to be as basic an ask-tell as I can make it. So there won't be any active help of the "you can ask about x, y, or tell him about a, b, c" variety, unless I find a very good reason for it.
+
+(At first glance, Eric Eve's conversation framework would seem ideal. It turns out that it's saddled with superfluous functionality, meaning the greeting system. Worse, that functionality can't easily be turned off. So we'll roll our own.)
 
 ### What clothing system are you going to use?
 
