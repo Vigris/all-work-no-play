@@ -1,8 +1,16 @@
 "All work, no play" by Vigris
 
+Volume - Framework
 
+Book - Settings
 
-Book - Framework
+[This is where we put global settings and precaching, if any.]
+
+Book - Extensions
+
+Include Epistemology by Eric Eve.
+
+Book - Changes to basic I7 internals
 
 Part - Appearance text
 
@@ -18,7 +26,7 @@ Part - Naming
 A person can be identified or unidentified. A person is usually unidentified. A person has a text called the unknown-name.
 For printing the name of an unidentified person: say the unknown-name.
 
-Part - Conversing
+Part - Conversation
 
 [Placeholder system. We'll see if the story wants something else later on.]
 Asking someone about is conversing.
@@ -29,7 +37,9 @@ Part - Physicality
 [A body part is a kind of thing.
 A face is a kind of body part.]
 
-Book - The Game
+Book - The Game World
+
+Part - Opening crawl
 
 When play begins, say "So it's a boring day at school, and you'd much rather be out shopping and having fun. Problem is, dear old dad has cut you off. In short, you're broke. No cute shoes or awesome crop tops for you! And there was a sale on, too...
 
@@ -37,25 +47,43 @@ Then again, you're nothing if not resourceful. You were sure there'd be an aweso
 
 This is gonna be great, you can tell."
 
+
+Part - Mall Region
+
+Chapter - Mall court
+
 Mall Court is a room. "This is the Oak Hills mall, your first and last stop for the high life. A sprawling concourse of stucco and marble and escalators, teeming with shoppers.
 
 That new store to the west is open."
 
+Chapter - New Shop
+
 The New Shop is west of the Mall Court. "Nothing beats a newly opened store trying its best to beat the competition. Obvious concessions to new customers aside, you kinda like what you see on the racks: varied selections ranging from cute to racy to alternative. Decent quality too, although some of it does look kinda pricey. Lots of customers with more money than you are busily queuing up before [the cashier]."
 
-Yourself can be close-to-the-makeup.
+This is the shoplifter caught stage-setting rule:
+	now the player is in the Back Room;
+	now Phil is proper-named;
+	now the handbag is off-stage;
+	now Phil is identified.
+
+Section - Makeup stand
+
 The makeup stand is in the Shop. "The makeup stand [if the player is close-to-the-makeup]next to you[otherwise]nearby[end if] advertises your favorite brand[first time]. Wow, you'd really look awesome in those colors[only][if the beauty box is on the stand]. You see the [beauty box] there, beckoning[end if]." The stand is a fixed in place supporter.
 
 The description of the stand is "The advert is for Shameless, your brand of choice. Normally you'd want to browse, but there's a beauty box marked with a beautiful swirl of stars: it's got nail polish, foundation, primers, mascara, lip gloss, assorted brushes... everything a girl might need."
+
+Yourself can be close-to-the-makeup.
+
+Before doing something with the stand when the player is not close-to-the-makeup:
+	say "You sidle up to the stand. [run paragraph on]";
+	now the player is close-to-the-makeup.
+
+Section - Beauty box
 
 The beauty box is a container. The description is "Still in its shiny packaging. It looks amazing, and it [if we have taken the beauty box]will[otherwise]would[end if] make [italic type]you[roman type] look amazing."
 After examining the stand for the first time:
 	now the beauty box is on the stand;
 	continue the action.
-
-Before doing something with the stand when the player is not close-to-the-makeup:
-	say "You sidle up to the stand. [run paragraph on]";
-	now the player is close-to-the-makeup.
 
 Instead of inserting the beauty box into the handbag when Phil is attentive, say "Not while the security guy is looking at you."
 After inserting the beauty box into the handbag, say "You casually do your best to wrangle the beauty box into your handbag. It's a really narrow fit. You struggle for an instant, your eyes on the security guard, praying he'll stay put.
@@ -64,28 +92,22 @@ After inserting the beauty box into the handbag, say "You casually do your best 
 
 Instead of trying opening the beauty box when the location is the New Shop, say "They're not gonna let you open the merchandise until you've paid for it."
 Instead of taking the beauty box when the box is in the handbag, say "You're committed now. You've got this."
-
 Instead of going east from the New Shop when the player carries the beauty box, say "You take a few confident steps toward the cashier, box in your hand, before realizing you don't have any money to pay for it."
-This is the shoplifter caught stage-setting rule:
-	now the player is in the Back Room;
-	now Phil is proper-named;
-	now the handbag is off-stage;
-	now Phil is identified.
-	
 Instead of going east from the New Shop when the beauty box is in the handbag:
-	say "You stroll toward the exit, feeling rather than seeing the security guard go on his way. You reach the arch, pass between them, and you're...-
-
-'Hey you!' The cashier's pointing at you, ugly suspicion on her face. 'Lemme see that bag, huh?'
-
-Well, [italic type]fuck[roman type].";
+	say "You stroll toward the exit, feeling rather than seeing the security guard go on his way. You reach the arch, pass between them, and you're...-[paragraph break]'Hey you!' The cashier's pointing at you, ugly suspicion on her face. 'Lemme see that bag, huh?'[paragraph break]Well, [italic type]fuck[roman type].";
 	follow the shoplifter caught stage-setting rule;
 	Phil returns to administer punishment in 3 turns from now.
+
+
+Chapter - Back Room
 
 The Back Room is a room. "This is an unused room behind the stocks. A spare guard uniform hangs from a hook on the wall. Aside from a [coffee table] and a [cheap metal chair], the room is unfurnished[first time].
 
 You're frog-marched inside and given a shove. Over the guard's shoulder, the cashier finishes looking through your handbag. She gives you a look of dripping contempt.
 
 'Stay here. Phil will be back soon to take care of you,' the cashier sneers. 'You're in so much trouble, missy.' The guard just glowers. They file out, taking your handbag with them, and the door closes with an audible click[only]."
+
+Section - Back room furniture
 
 The coffee table is a fixed in place supporter in the Back Room. The description of the coffee table is "Cheap as it gets."
 The cheap metal chair is a scenery supporter in the Back Room. It is enterable.
@@ -101,6 +123,11 @@ After examining the stack of magazines for the first time:
 	continue the action.
 
 The porn mag is a thing. Understand "pornography" or "magazine" or "sluts in bondage" or "bondage" as the porn mag.]
+
+
+Book - Scenes
+
+Part - Corporeal punishment
 
 At the time when Phil returns to administer punishment:
 	say "You hear steps outside. A moment later, the door opens. Phil, the security guard, steps into the room. His face is impassive.
@@ -126,10 +153,9 @@ When Rock_and_hard_place begins, say "'You damn punks. Think you can get away wi
 Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
 
 
+Book - Characters
 
-Part - Characters
-
-Chapter - The player
+Part - The player
 
 The player carries a handbag. Understand "hand" or "bag" or "hand-bag" as the handbag. Understand "purse" as the handbag.
 The description of the handbag is "You keep it with you everywhere. It's cute! And practical. And goes with everything." The handbag is a container.
@@ -142,7 +168,7 @@ The player wears a schoolgirl uniform. The description of the schoolgirl uniform
 Instead of taking off the schoolgirl uniform, say "This is far too public for you to do that."
 
 
-Chapter - Phil the Security Guard
+Part - Phil the Security Guard
 
 Phil is an improper-named man in the New Shop. 
 Phil is unidentified. The unknown-name of Phil is "security guard".
@@ -173,7 +199,7 @@ The description of Phil is "A big guy in a rumpled uniform with a cap that reads
 Instead of conversing when the noun is an unidentified Phil, say "You really want to avoid his attention[if the beauty box is in the handbag]. That beauty box is burning a hole in your handbag[otherwise]. He's probably just waiting for an excuse to throw you out[end if]."
 
 
-Chapter - Cashier
+Part - Cashier
 
 The cashier is an improper-named woman in the New Shop. The unknown-name of the cashier is "cashier".
 The description of the cashier is "[unless the beauty box is in the handbag]A bleach-blond perm and a disinterested attitude[otherwise]The cashier seems busy. Time to make yourself scarce[end unless]."
@@ -184,7 +210,13 @@ Instead of showing or giving the box to the cashier, say "You're strapped for ca
 
 Book - Testing (not for release)
 
-First when play begins:
+The straight-into-action rules is a rulebook with default success.
+A straight-into-action rule (this is the start game with the spanking scene rule):
 	follow the shoplifter caught stage-setting rule;
-	Phil returns to administer punishment in 0 turns from now;
-	rule succeeds.
+	Phil returns to administer punishment in 0 turns from now.
+
+
+[Testing scripts are used to quickly slip into specific scenes and let us flesh them out, because the I7 replay mechanism is slooooow.]
+[First when play begins:
+	follow the straight-into-action rulebook;
+	rule succeeds.]
