@@ -1,5 +1,7 @@
 "All work, no play" by Vigris
 
+
+
 Book - Framework
 
 Part - Appearance text
@@ -87,7 +89,7 @@ You're frog-marched inside and given a shove. Over the guard's shoulder, the cas
 
 The coffee table is a fixed in place supporter in the Back Room. The description of the coffee table is "Cheap as it gets."
 The cheap metal chair is a scenery supporter in the Back Room. It is enterable.
-
+Does the player mean entering something enterable: it is likely.
 
 [On the coffee table is a stack of magazines. The stack of magazines is fixed in place. Understand "stack" or "magazines" as the stack of magazines.
 The description of the stack of magazines is "[one of]These magazines obviously belong to the guard. With nothing better to do, you start thumbing through them, already bored by the titles: Henchman Anonymous, Guns & Blammo, Police Gazetteer, Sluts in Bondage...-
@@ -109,6 +111,8 @@ At the time when Phil returns to administer punishment:
 Sit_down_bitch is a scene. 
 Sit_down_bitch begins when Phil is in the Back Room.
 Sit_down_bitch ends nicely when the player is on the cheap metal chair.
+After entering the chair when Phil is in the back room, say "You get onto the cheap metal chair. Phil nods, although he still looks kind of angry."
+
 Sit_down_bitch ends coercively when the time since Sit_down_bitch began is 4 minutes.
 
 Every turn during Sit_down_bitch, say "[one of]Phil seems to wait for you to sit down.[or]'Now! On the chair! I won't ask again!'[or]Phil's veins are visibly bulging.[or]Phil looms over you. He grabs your arm. He's really strong.[stopping] ".
@@ -117,8 +121,9 @@ When Sit_down_bitch ends coercively, now the player is on the chair.
 
 Rock_and_hard_place is a scene. Rock_and_hard_place begins when Sit_down_bitch ends.
 
-Instead of exiting from the cheap metal chair during Rock_and_hard_place:
-	say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]. "
+When Rock_and_hard_place begins, say "'You damn punks. Think you can get away with anything, do ya?' Phil scowls. 'If it were up to me, I'd whip you all like your mommy shoulda. But today for some reason, [italic type]ooh[roman type], that'd be '[italic type]assault[roman type]'.' He leans forward. 'So I'm gonna give you a choice, girl. You can go to the station and wait for your parents to pick you up. I'm sure they'd love to hear all about that. Or you could take your punishment from me until I'm satisfied you've learnt your lesson.'"
+
+Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
 
 
 
@@ -166,8 +171,6 @@ An appearance rule for an absent-minded unidentified Phil: say "The security gua
 The description of Phil is "A big guy in a rumpled uniform with a cap that reads 'SECURITY.' Under the brim is a heavy, unshaven face set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]." Understand "security" or "guard" as Phil. 
 
 Instead of conversing when the noun is an unidentified Phil, say "You really want to avoid his attention[if the beauty box is in the handbag]. That beauty box is burning a hole in your handbag[otherwise]. He's probably just waiting for an excuse to throw you out[end if]."
-
-
 
 
 Chapter - Cashier
