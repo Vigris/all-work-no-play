@@ -54,7 +54,9 @@ This is a toughie. All conversation (other than quips) will be bounded by a conv
 
 ## What clothing system are you going to use?
 
-Not fully decided on how to handle clothes. I'll probably draft the scenes themselves in the next week or so, which will dictate it all. Preliminarily thought, I'm increasingly beginning to view elaborate AIF systems (particularly clothing systems) as a mistake. You end up with a large, sprawling library of responses that don't serve the story. It's a pain to work with. The I7 ethos, to me, seems far more about custom-fitting a solution that works for a specific game, and whittling it down to the essentials, than including premade stuff that end up clashing with the rest.
+Not fully decided on how to handle clothes. I'll probably draft the scenes themselves in the next week or so, which will dictate it all. Preliminarily thought, I'm increasingly beginning to view elaborate IF systems (particularly combat engines or clothing systems) as a mistake. You end up with a large, sprawling library of responses that don't serve the story, and the result becomes a crutch and a pain to work with. 
+
+Ideally, Inform 7 emphasises coding with a light touch. The I7 ethos, to me, seems far more about custom-fitting a solution that works for a specific game, and whittling it down to the essentials, than dropping a lumbering framework into your existing codebase.
 
 ## Is this going to be a z8 or Glulx game?
 
