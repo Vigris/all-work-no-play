@@ -26,7 +26,11 @@ Hey, you did ask.
 
 ## What's the tech?
 
-The game is written in [Inform 7 6M62](http://inform7.com/download/). I'm trying to be as idiomatic as possible. However, this is going to be a learning experience in how to actually finish a freaking project, so therefore I'm imposing a number of rules on myself. These are as follows:
+The game is written in [Inform 7 6M62](http://inform7.com/download/). Although I love the idea of illustration and presentation, there's currently no plan to add graphics.
+
+## What constraints do you have?
+
+I'm trying to be as idiomatic as possible. However, this is going to be a learning experience in how to actually finish a freaking project, so therefore I'm imposing a number of rules on myself. These are as follows:
 
 ### Make it as simple as possible.
 
