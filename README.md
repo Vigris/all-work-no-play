@@ -50,7 +50,7 @@ Inform is sometimes too powerful, which means you're tempted to do radical thing
 
 This is a toughie. All conversation (other than quips) will be bounded by a conversation _scene_, to limit their scope and ensure narrative weight. As for the system itself, it's going to be as basic an ask-tell as I can make it. So there won't be any active help of the "you can ask about x, y, or tell him about a, b, c" variety, unless I find a very good reason for it.
 
-(At first glance, Eric Eve's conversation framework would seem ideal. It turns out, though, that it comes with a superfluous greeting system functionality that can't easily be turned off. So we're explicitly rolling our own modified version.)
+We're using Eric Eve's conversation framework. It's got its quirks, but I'm grudgingly forced to admit that convenience can occasionally trump quirky behavior.
 
 ## What clothing system are you going to use?
 
