@@ -6,7 +6,7 @@ This is my first attempt at placing something on GitHub, so I'll be using it not
 ## Overview
 ### What kind of game is this?
 
-It's an AIF game. The "IF" part of the acronym stands for Interactive Fiction. If you've played any game that consists solely of text (such as Zork, Hitchhiker's Guide to the Galaxy, Galatea et cetera) you know the type. The "A" stands for Adult, which in this case is a misnomer. This will be a sex game, and a pretty juvenile one at that. Still, no besteality, so at least I can promise you won't be eaten by a Grue.
+It's an AIF game. The "IF" part of the acronym stands for Interactive Fiction. If you've played any game that consists solely of text (such as Zork, Hitchhiker's Guide to the Galaxy, Galatea et cetera) you know the type. The "A" stands for Adult, which in this case is a misnomer peculiar to the English language. Euphemisms aside, this will be a sex game, and a pretty juvenile one at that. Still, no bestiality, so at least I can promise you won't be eaten by a Grue.
 
 ### So it's, like, porn?
 
