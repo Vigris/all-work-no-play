@@ -18,7 +18,7 @@ You're not wrong. Although this story _is_ a fantasy, I'm very aware I'm skirtin
 
 ### I'm not sure I follow.
 
-I'm saying anyone who thinks the characters in this story are realistic (very much including the main character) may need a psychologist. These aren't real, multifaceted people. They're not intended to be. They're just the written expression of a subset of my turn-ons.
+I'm saying anyone who thinks the characters in this story (including the main character) are in any way realistic may need a psychologist. These aren't real, multifaceted people. They're not intended to be. They're just the written expression of a subset of my turn-ons.
 
 ### Oookay. Settle down maybe.
 
