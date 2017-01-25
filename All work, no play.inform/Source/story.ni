@@ -8,7 +8,7 @@ Book - Settings
 
 Book - Extensions
 
-Include Epistemology by Eric Eve.
+Include Conversation Framework by Eric Eve.
 
 Book - Changes to basic I7 internals
 
@@ -26,16 +26,30 @@ Part - Naming
 A person can be identified or unidentified. A person is usually unidentified. A person has a text called the unknown-name.
 For printing the name of an unidentified person: say the unknown-name.
 
-Part - Conversation
-
-[Placeholder system. We'll see if the story wants something else later on.]
-Asking someone about is conversing.
-Telling someone about is conversing.
-
 Part - Physicality
 
 [A body part is a kind of thing.
 A face is a kind of body part.]
+
+Part - Conversation extended
+
+Chapter - Greeting Definitions 
+
+Asking someone about something is voicing.
+Telling someone about something is voicing.
+Quizzing someone about something is voicing.
+Informing someone about something is voicing.
+Answering someone that something is voicing.
+Asking someone for something is voicing.
+Requesting someone for something is voicing.
+Imploring someone for something is voicing.
+Saying hello to is voicing.
+Saying goodbye to is voicing.
+
+Saying yes is voicing.
+Saying no is voicing.
+Saying sorry is voicing.
+
 
 Book - The Game World
 
@@ -204,7 +218,7 @@ Part - Cashier
 The cashier is an improper-named woman in the New Shop. The unknown-name of the cashier is "cashier".
 The description of the cashier is "[unless the beauty box is in the handbag]A bleach-blond perm and a disinterested attitude[otherwise]The cashier seems busy. Time to make yourself scarce[end unless]."
 
-Instead of conversing when the noun is the cashier, say "She's got no time for chit-chat."
+Instead of voicing when the noun is the cashier, say "She's got no time for chit-chat." instead.
 Instead of showing or giving the box to the cashier, say "You're strapped for cash; there's no way you could afford that."
 
 

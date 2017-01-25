@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\paulsenb.STRUSOFTLOCAL\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Eleas\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\paulsenb.STRUSOFTLOCAL\Documents\Inform\Projects\all-work-no-play\All work, no play.inform"
-release to "C:\Users\paulsenb.STRUSOFTLOCAL\Documents\Inform\Projects\all-work-no-play\All work, no play.materials\Release"
+project folder "C:\Users\Eleas\Documents\Inform\Projects\all-work-no-play\All work, no play.inform"
+release to "C:\Users\Eleas\Documents\Inform\Projects\all-work-no-play\All work, no play.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "All work, no play.gblorb"
-storyfile "C:\Users\paulsenb.STRUSOFTLOCAL\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Build\output.ulx" include
-ifiction "C:\Users\paulsenb.STRUSOFTLOCAL\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Metadata.iFiction" include
+storyfile "C:\Users\Eleas\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Build\output.ulx" include
+ifiction "C:\Users\Eleas\Documents\Inform\Projects\all-work-no-play\All work, no play.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
