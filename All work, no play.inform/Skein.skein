@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02A67620" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02C7B500"/>
+  <item nodeId="node-0x02A67620">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Back Room&#x000A;This is an unused room behind the stocks. A spare guard uniform hangs from a hook on the wall. Aside from a coffee table and a cheap metal chair, the room is unfurnished.&#x000A;&#x000A;You're frog-marched inside and given a shove. Over the guard's shoulder, the cashier finishes looking through your handbag. She gives you a look of dripping contempt.&#x000A;&#x000A;"Stay here. Phil will be back soon to take care of you," the cashier sneers. "You're in so much trouble, missy." The guard just glowers. They file out, taking your handbag with them, and the door closes with an audible click.&#x000A;&#x000A;All work, no play&#x000A;An Interactive Fiction by Vigris&#x000A;Release 1 / Serial number 170125 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Back Room&#x000A;This is an unused room behind the stocks. A spare guard uniform hangs from a hook on the wall. Aside from a coffee table and a cheap metal chair, the room is unfurnished.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02C7B340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B340">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You hear steps outside. A moment later, the door opens. Phil, the security guard, steps into the room. His face is impassive.&#x000A;&#x000A;"Sit," he tells you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C7B1F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B1F0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Phil seems to wait for you to sit down.&#x000A; &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C7B570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B570">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;"Now! On the chair! I won't ask again!"&#x000A; &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C7B420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B420">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Phil's veins are visibly bulging.&#x000A; &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C7B650"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B650">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Phil looms over you. He grabs your arm. He's really strong.&#x000A; &#x000A;The next moment you're roughly shoved into the chair. "Now sit there and shut up."&#x000A;&#x000A;Back Room (on the cheap metal chair)&#x000A;This is an unused room behind the stocks. A spare guard uniform hangs from a hook on the wall. Aside from a coffee table and a cheap metal chair, the room is unfurnished.&#x000A;&#x000A;Phil is here. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C7B500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C7B500">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first getting off the cheap metal chair)&#x000A;Phil has already shown he's ready and willing to force you down if he feels like it. &#x000A;You would have to get off the cheap metal chair first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
