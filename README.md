@@ -14,7 +14,7 @@ Very much like porn, yes. Specifically, while the player character is female, sh
 
 ### That sounds misogynistic as _shit_.
 
-You're not wrong. Although this story _is_ a fantasy, I'm very aware I'm skirting a line here. The schoolgirl fantasy itself is fraught with potential real-world abuse, and this thing is probably close to what I feel I could stomach even with clearly unrealistic depictions and a metric ton of disclaimers. The last thing I want is for anyone to model human interaction off of this story.
+You're not wrong. Although this story _is_ a fantasy, I'm very aware I'm skirting a line here. The schoolgirl fantasy itself is fraught with potential real-world abuse, and this thing probably borders the line of what I feel I could stomach even with clearly unrealistic depictions and a metric ton of disclaimers. The last thing I want is for anyone to model human interaction off of this story. Please don't.
 
 ### I'm not sure I follow.
 
@@ -38,7 +38,7 @@ I7 excels at prototyping. Therefore I'm going to write a minimum viable game fir
 
 ### Write the through-line in scene form.
 
-The first step will involve creating a bunch of scenes and then stringing them together. This will have the benefit of focusing on cool gameplay moments rather than first creating the game loop and then trying to impose interesting events onto it. That follows the [approach favored by Emily Short when writing Bronze](https://emshort.blog/2009/08/23/idea-to-implementation/), and seems to gel far better with how I think than previously attempted design processes.
+The first step will involve creating a bunch of scenes and then stringing them together. This will have the benefit of focusing on cool gameplay moments rather than first creating the game loop and then trying to impose interesting events onto it. That follows the [approach favored by Emily Short when writing Bronze](https://emshort.blog/2009/08/23/idea-to-implementation/), and seems to gel far better with my own workflow than previous models.
 
 ### Try to do much with little.
 
