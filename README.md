@@ -42,7 +42,7 @@ The first step will involve creating a bunch of scenes and then stringing them t
 
 ### Try to do much with little.
 
-Inform is sometimes too powerful, which means you're tempted to do radical things when you don't need to. Expanding on the "make it simple" ethos, I'll look for ways of faking things before trying doing them for real. If I can pull off complex-seeming effects through simple trickery, that's a win. For instance, while it's great to have the _option_, there's often no need to delve into the _Writing a Paragraph About_ activity for a mere room description. By doing this, the code becomes simpler and the mental overhead much reduced.
+Inform is sometimes too powerful. It gives you tools for any situation, which means you're tempted to do radical things when you don't need to. Expanding on the "make it simple" ethos, I'll look for ways of faking things before trying doing them for real. If I can pull off complex-seeming effects through simple trickery, that's a win. For instance, while it's great to have the _option_, there's often no need to delve into the _Writing a Paragraph About_ activity for a mere room description. By doing this, the code becomes simpler and the mental overhead much reduced.
 
 (In theory, at least.)
 
