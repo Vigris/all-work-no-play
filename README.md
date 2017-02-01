@@ -14,7 +14,7 @@ Very much like porn, yes. Specifically, while the player character is female, sh
 
 ### That sounds misogynistic as _shit_.
 
-You're not wrong. Although this story _is_ a fantasy, I'm very aware I'm skirting on the edge of my own comfort zone. The schoolgirl fantasy itself is fraught with potential real-world abuse, and this thing probably borders the line of what I feel I could stomach even with clearly unrealistic depictions and a metric ton of disclaimers. The last thing I want is for anyone to model human interaction off of this story. Please don't.
+You're not wrong. Although this story _is_ a fantasy, I'm acutely aware of the implications and how close this comes to being legitimately unsavory. The schoolgirl fantasy itself is fraught with potential real-world abuse, and this thing probably borders the line of what I feel I could stomach even with clearly unrealistic depictions and a metric ton of disclaimers. The last thing I want is for anyone to model human interaction off of this story. Please don't.
 
 ### I'm not sure I follow.
 
