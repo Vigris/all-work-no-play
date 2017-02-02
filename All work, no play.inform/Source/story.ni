@@ -172,8 +172,6 @@ After quizzing Phil about punishment when Rock_and_hard_place is happening:
 	say "'[one of]When punks get out of line, there's only one thing that helps. You need a good spanking, girl. Twenty strokes should be enough.'[paragraph break]'What? You don't get to do that,' you exclaim. [paragraph break]Phil scoffs. 'Don't tell me you never been spanked?'[or]Like I said, you need a good ass-whoopin['] to teach you some respect, girl.'[stopping][line break]>";
 	if the player consents, say "'Really?' He raises his eyebrows. 'I guess some kids just don't learn.'";
 	otherwise say "He scoffs. 'I figured as much. Well, this will be a learning experience for you.'"
-	
-
 
 Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
 
@@ -237,13 +235,14 @@ Instead of showing or giving the box to the cashier, say "You're strapped for ca
 
 Book - Testing (not for release)
 
-The straight-into-action rules is a rulebook with default success.
+[Testing scripts are used to quickly slip into specific scenes and let us flesh them out, because the I7 replay mechanism is slooooow.]
+The straight-into-action rules is a rulebook.
+First when play begins:
+	follow the straight-into-action rulebook;
+	if rule succeeded, rule succeeds.
+
+[Specific testing rules. Only uncomment a rule for the thing you want to test.]
 A straight-into-action rule (this is the start game with the spanking scene rule):
 	follow the shoplifter caught stage-setting rule;
 	Phil returns to administer punishment in 0 turns from now.
-
-
-[Testing scripts are used to quickly slip into specific scenes and let us flesh them out, because the I7 replay mechanism is slooooow.]
-First when play begins:
-	follow the straight-into-action rulebook;
-	rule succeeds.
+	
