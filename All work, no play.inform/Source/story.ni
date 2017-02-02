@@ -170,7 +170,7 @@ Understand "spanking" as punishment when Rock_and_hard_place is happening.
 
 After quizzing Phil about punishment when Rock_and_hard_place is happening:
 	say "'[one of]When punks get out of line, there's only one thing that helps. You need a good spanking, girl. Twenty strokes should be enough.'[paragraph break]'What? You don't get to do that,' you exclaim. [paragraph break]Phil scoffs. 'Don't tell me you never been spanked?'[or]Like I said, you need a good ass-whoopin['] to teach you some respect, girl.'[stopping][line break]>";
-	if the player consents, say "'Really?' He raises his eyebrows. 'I guess some kids just don't learn.'";
+	if the player consents, say "'Really?' He raises his eyebrows. 'I guess some kids just don't learn the first time.'";
 	otherwise say "He scoffs. 'I figured as much. Well, this will be a learning experience for you.'"
 
 Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
@@ -217,9 +217,14 @@ An appearance rule for an unidentified Phil when Phil was absent-minded for at l
 An appearance rule for an attentive unidentified Phil when Phil's readiness state just changed: say "The security guard shakes himself alert. ".
 An appearance rule for an absent-minded unidentified Phil when Phil's readiness state just changed: say "The security guard's gaze begins to drift. ".
 An appearance rule for an attentive unidentified Phil: say "The security guard gives you a suspicious glare. ".
-An appearance rule for an absent-minded unidentified Phil: say "The security guard is [one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]. ".
+An appearance rule for an absent-minded unidentified Phil: say "The security guard is [phil-desc]. ".
 
-The description of Phil is "A big guy in a rumpled uniform with a cap that reads 'SECURITY.' Under the brim is a heavy, unshaven face set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]." Understand "security" or "guard" as Phil. 
+The description of Phil is "A big guy in a rumpled uniform with a cap that reads 'SECURITY.' Under the brim is a heavy, unshaven face set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][phil-desc]." Understand "security" or "guard" as Phil. 
+
+To say phil-desc:
+	if the location is:
+		-- the New Shop: say "[if Phil is attentive]got his eye on you[otherwise][one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]";
+		-- the Back Room: say "looking at you with a faintly menacing expression".
 
 Instead of conversing when the noun is an unidentified Phil, say "You really want to avoid his attention[if the beauty box is in the handbag]. That beauty box is burning a hole in your handbag[otherwise]. He's probably just waiting for an excuse to throw you out[end if]."
 
