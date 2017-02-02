@@ -155,6 +155,7 @@ Sit_down_bitch ends nicely when the player is on the cheap metal chair.
 After entering the chair when Phil is in the back room, say "You get onto the cheap metal chair. Phil nods, although he still looks kind of angry."
 
 Sit_down_bitch ends coercively when the time since Sit_down_bitch began is 4 minutes.
+Instead of trying doing something other than looking or examining or entering when Sit_down_bitch is happening, say "You don't think Phil is going to let you get away with that."
 
 Every turn during Sit_down_bitch, say "[one of]Phil seems to wait for you to sit down.[or]'Now! On the chair! I won't ask again!'[or]Phil's veins are visibly bulging.[or]Phil looms over you. He grabs your arm. He's really strong.[stopping] ".
 When Sit_down_bitch ends coercively, say "The next moment you're roughly shoved into the chair. 'Now sit there and shut up.'"
@@ -164,7 +165,19 @@ Rock_and_hard_place is a scene. Rock_and_hard_place begins when Sit_down_bitch e
 
 When Rock_and_hard_place begins, say "'You damn punks. Think you can get away with anything, do ya?' Phil scowls. 'If it were up to me, I'd whip you all like your mommy shoulda. But today for some reason, [italic type]ooh[roman type], that'd be '[italic type]assault[roman type]'.' He leans forward. 'So I'm gonna give you a choice, girl. You can go to the station and wait for your parents to pick you up. I'm sure they'd love to hear all about that. Or you could take your punishment from me until I'm satisfied you've learnt your lesson.'"
 
+punishment, station are subjects.
+Understand "spanking" as punishment when Rock_and_hard_place is happening.
+
+After quizzing Phil about punishment when Rock_and_hard_place is happening:
+	say "'[one of]When punks get out of line, there's only one thing that helps. You need a good spanking, girl. Twenty strokes should be enough.'[paragraph break]'What? You don't get to do that,' you exclaim. [paragraph break]Phil scoffs. 'Don't tell me you never been spanked?'[or]Like I said, you need a good ass-whoopin['] to teach you some respect, girl.'[stopping][line break]>";
+	if the player consents, say "'Really?' He raises his eyebrows. 'I guess some kids just don't learn.'";
+	otherwise say "He scoffs. 'I figured as much. Well, this will be a learning experience for you.'"
+	
+
+
 Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
+
+
 
 
 Book - Characters
@@ -176,7 +189,7 @@ The description of the handbag is "You keep it with you everywhere. It's cute! A
 Instead of inserting or dropping when the noun is the handbag, say "As if! You'd end up losing it, and then where would you be?"
 Instead of trying opening or closing the handbag, say "Your handbag got that magnetic clasp so in a way, it's always open when you need it."
 
-The description of the player is "You have a bit of the pixie thing going, all wide eyes and fine-boned features. Together with your schoolgirl uniform and light makeup, that lends you a very sweet and innocent appearance. Your favorite handbag hangs over your shoulder."
+The description of the player is "You have a bit of the pixie thing going, all wide eyes and fine-boned features. Together with your schoolgirl uniform and light makeup, that lends you a very sweet and innocent appearance[if the player holds the handbag]. Your favorite handbag hangs over your shoulder[end if]."
 
 The player wears a schoolgirl uniform. The description of the schoolgirl uniform is "A white blouse, a vest, thigh-length plaid skirt, and some shiny black shoes. All nice and proper." 
 Instead of taking off the schoolgirl uniform, say "This is far too public for you to do that."
@@ -231,6 +244,6 @@ A straight-into-action rule (this is the start game with the spanking scene rule
 
 
 [Testing scripts are used to quickly slip into specific scenes and let us flesh them out, because the I7 replay mechanism is slooooow.]
-[First when play begins:
+First when play begins:
 	follow the straight-into-action rulebook;
-	rule succeeds.]
+	rule succeeds.
