@@ -156,6 +156,7 @@ After entering the chair when Phil is in the back room, say "You get onto the ch
 
 Sit_down_bitch ends coercively when the time since Sit_down_bitch began is 4 minutes.
 Instead of trying doing something other than looking or examining or entering when Sit_down_bitch is happening, say "You don't think Phil is going to let you get away with that."
+Instead of voicing when Sit_down_bitch is happening, say "Phil's glare suggests he has no interest in what you have to say."
 
 Every turn during Sit_down_bitch, say "[one of]Phil seems to wait for you to sit down.[or]'Now! On the chair! I won't ask again!'[or]Phil's veins are visibly bulging.[or]Phil looms over you. He grabs your arm. He's really strong.[stopping] ".
 When Sit_down_bitch ends coercively, say "The next moment you're roughly shoved into the chair. 'Now sit there and shut up.'"
@@ -165,6 +166,10 @@ Rock_and_hard_place is a scene. Rock_and_hard_place begins when Sit_down_bitch e
 
 When Rock_and_hard_place begins, say "'You damn punks. Think you can get away with anything, do ya?' Phil scowls. 'If it were up to me, I'd whip you all like your mommy shoulda. But today for some reason, [italic type]ooh[roman type], that'd be '[italic type]assault[roman type]'.' He leans forward. 'So I'm gonna give you a choice, girl. You can go to the station and wait for your parents to pick you up. I'm sure they'd love to hear all about that. Or you could take your punishment from me until I'm satisfied you've learnt your lesson.'"
 
+Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
+
+Chapter - Proposing the punishment
+
 punishment, station are subjects.
 Understand "spanking" as punishment when Rock_and_hard_place is happening.
 
@@ -172,9 +177,6 @@ After quizzing Phil about punishment when Rock_and_hard_place is happening:
 	say "'[one of]When punks get out of line, there's only one thing that helps. You need a good spanking, girl. Twenty strokes should be enough.'[paragraph break]'What? You don't get to do that,' you exclaim. [paragraph break]Phil scoffs. 'Don't tell me you never been spanked?'[or]Like I said, you need a good ass-whoopin['] to teach you some respect, girl.'[stopping][line break]>";
 	if the player consents, say "'Really?' He raises his eyebrows. 'I guess some kids just don't learn the first time.'";
 	otherwise say "He scoffs. 'I figured as much. Well, this will be a learning experience for you.'"
-
-Instead of exiting from the cheap metal chair during Rock_and_hard_place, say "[if Sit_down_bitch ended coercively]Phil has already shown he's ready and willing to force you down if he feels like it[otherwise]One look at Phil's face convinces you not to try[end if]."
-
 
 
 
@@ -219,7 +221,7 @@ An appearance rule for an absent-minded unidentified Phil when Phil's readiness 
 An appearance rule for an attentive unidentified Phil: say "The security guard gives you a suspicious glare. ".
 An appearance rule for an absent-minded unidentified Phil: say "The security guard is [phil-desc]. ".
 
-The description of Phil is "A big guy in a rumpled uniform with a cap that reads 'SECURITY.' Under the brim is a heavy, unshaven face set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][phil-desc]." Understand "security" or "guard" as Phil. 
+The description of Phil is "A big guy in a rumpled uniform [if the location is the New Shop]with a cap that reads 'SECURITY.' Under the brim is a[otherwise]with sandy hair. His[end if] heavy, unshaven face[if the location is the Back Room] is[end if] set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][phil-desc][end if]." Understand "security" or "guard" as Phil. 
 
 To say phil-desc:
 	if the location is:
