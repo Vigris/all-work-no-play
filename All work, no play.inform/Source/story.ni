@@ -153,6 +153,7 @@ Sit_down_bitch is a scene.
 Sit_down_bitch begins when Phil is in the Back Room.
 Sit_down_bitch ends nicely when the player is on the cheap metal chair.
 After entering the chair when Phil is in the back room, say "You get onto the cheap metal chair. Phil nods, although he still looks kind of angry."
+For writing a paragraph about Phil during Sit_down_bitch: now Phil is mentioned.
 
 Sit_down_bitch ends coercively when the time since Sit_down_bitch began is 4 minutes.
 Instead of trying doing something other than looking or examining or entering when Sit_down_bitch is happening, say "You don't think Phil is going to let you get away with that."
