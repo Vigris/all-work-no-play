@@ -220,14 +220,14 @@ An appearance rule for an unidentified Phil when Phil was absent-minded for at l
 An appearance rule for an attentive unidentified Phil when Phil's readiness state just changed: say "The security guard shakes himself alert. ".
 An appearance rule for an absent-minded unidentified Phil when Phil's readiness state just changed: say "The security guard's gaze begins to drift. ".
 An appearance rule for an attentive unidentified Phil: say "The security guard gives you a suspicious glare. ".
-An appearance rule for an absent-minded unidentified Phil: say "The security guard is [phil-desc]. ".
+
+An appearance rule for an absent-minded unidentified Phil when the location is New Shop: say "The security guard [if Phil is attentive]has his eye on you[otherwise]is[one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]. "
+
+An appearance rule for Phil when the location is Back Room: say "Phil is looking at you with a faintly menacing expression. " 
 
 The description of Phil is "A big guy in a rumpled uniform [if the location is the New Shop]with a cap that reads 'SECURITY.' Under the brim is a[otherwise]with sandy hair. His[end if] heavy, unshaven face[if the location is the Back Room] is[end if] set in a frown. He's currently [if Phil is attentive]got his eye on you[otherwise][phil-desc][end if]." Understand "security" or "guard" as Phil. 
 
-To say phil-desc:
-	if the location is:
-		-- the New Shop: say "[if Phil is attentive]got his eye on you[otherwise][one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]";
-		-- the Back Room: say "looking at you with a faintly menacing expression".
+To say phil-desc: say "[if Phil is attentive]got his eye on you[otherwise][one of]staring out the window[or]reading a magazine[or]checking out one of the customers[at random]".
 
 Instead of conversing when the noun is an unidentified Phil, say "You really want to avoid his attention[if the beauty box is in the handbag]. That beauty box is burning a hole in your handbag[otherwise]. He's probably just waiting for an excuse to throw you out[end if]."
 
