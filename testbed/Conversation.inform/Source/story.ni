@@ -65,24 +65,20 @@ After quizzing Phil about punishment for the first time:
 	now Phil is candid-about-spanking;
 	now Phil is waiting-for-answer.
 
-After quizzing Phil about punishment:
-	now Phil is just-shooting-the-breeze;	
-	say "[one of]'Spanking?' You swallow. 'Like, you know..?'[paragraph break]'So now you're paying attention, huh? Yeah, you heard right. Betcha a dozen hard smacks will teach what happens to misbehaving brats. Or not.' He snorts. 'Anyway, you take your lumps with good grace, then nobody'll have to take this further. You'll be free to go.'[or]You don't think he's going to budge. Either a spanking, or to the station with you.[stopping]"
+To say (x - text) as Phil's punishment question:
+	now Phil is just-shooting-the-breeze;
+	say x.
+
+After quizzing Phil about punishment, say "[one of]'Spanking?' You swallow. 'Like, you know..?'[paragraph break]'So now you're paying attention, huh? Yeah, you heard right. Betcha a dozen hard smacks will teach what happens to misbehaving brats. Or not.' He snorts. 'Anyway, you take your lumps with good grace, then nobody'll have to take this further. You'll be free to go.'[or]You don't think he's going to budge. Either a spanking, or to the station with you.[stopping]" as Phil's punishment question.
 
 The block saying yes rule does nothing when Phil is waiting-for-answer.
 The block saying no rule does nothing when Phil is waiting-for-answer.
 
-After of doing anything other than saying yes or saying no while Phil is waiting-for-answer:
-	now Phil is just-shooting-the-breeze;	
-	say "You don't want to give him the satisfaction of an answer, so you don't.[paragraph break]Phil snorts. 'I guess that's what we call a silence that speaks volumes. Well, either way, it sounds like a lesson is way overdue.'"
+Instead of doing anything other than saying yes or saying no while Phil is waiting-for-answer, say "You don't want to give him the satisfaction of an answer, so you don't.[paragraph break]Phil snorts. 'I guess that's what we call a silence that speaks volumes. Well, either way, it sounds like a lesson is way overdue.[if the player is decided-on-spanking]. Now get up[end if].'" as Phil's punishment question.
 
-After saying yes while Phil is waiting-for-answer: 
-	now Phil is just-shooting-the-breeze;
-	say "'Yeah.' You bite your lip as you nod.[paragraph break]'I'm not surprised. Too bad you didn't learn from it,' Phil says. 'We'll do it right this time.'"
+After saying yes while Phil is waiting-for-answer, say "'Yeah.' You bite your lip as you nod.[paragraph break]'I'm not surprised. Too bad you didn't learn from it,' Phil says. 'We'll do it right this time.[if the player is decided-on-spanking]. Now get up[end if].'" as Phil's punishment question.
 
-After saying no while Phil is waiting-for-answer: 
-	now Phil is just-shooting-the-breeze;
-	say "'Figures. That's what's wrong with the country today, yanno. Kids without manners, cause nobody wants to teach them consequences. Well, sounds like a lesson is overdue.'"
+After saying no while Phil is waiting-for-answer, say "'No,' you say, trying to sound brave.[paragraph break]'Figures. That's what's wrong with the country today, yanno. Kids without manners, cause nobody wants to teach them consequences. Well, sounds like a lesson is overdue[if the player is decided-on-spanking]. Now get up[end if].'" as Phil's punishment question.
 
 Every turn during Rock_and_hard_place: say "[if Phil is waiting-for-answer][Phil] looks like he's expecting a reply.[otherwise][italic type]You can ask about [the station] or [the punishment]. Or you could choose either one[roman type].[end if] "
 	
@@ -95,18 +91,21 @@ Instead of saying sorry when Rock_and_hard_place is happening, try quizzing Phil
 
 Yourself can be undecided-on-spanking or decided-on-spanking. The player is undecided-on-spanking.
 
-Instead of requesting Phil for the police station:
+Instead of requesting Phil for the police station while the the location is the Back Room:
 	say "'I'm...-' You pause, swallowing hard. Is this really what you want to do?[paragraph break](Y/N) ";
-	if the player consents:
-		say "'[if Phil is candid-about-spanking]Screw you, I'm not playing your sick games[otherwise]No, I think it'd be best if I just came clean[end if],' you tell him. 'Take me to the station [if Phil is candid-about-spanking]already[otherwise]please[end if].'";
-		end the story saying "Yer purdy";
-	otherwise:
-		say "'...let me think about it,' you finish, lamely."
+	if the player consents, choose dignity above expedience;
+	otherwise say "'...let me think about it,' you finish, lamely."
 
-[Instead of requesting Phil for punishment:
-	say "Phil nods. 'Good choice. Now get up. You ever been spanked, girl?[paragraph break](Y/N)'";]
-	
-	
+To choose dignity above expedience: 
+	say "'[if Phil is candid-about-spanking]Screw you, I'm not playing your sick games[otherwise]I think it'd be best if I just get this over with[end if],' you tell him. 'Take me to the station[if Phil is candid-about-spanking] already[otherwise], please[end if].'[paragraph break]Outside, in the corridor, you collect your things under Phil's watchful gaze. The walk through the shop seems eternal. There's at least ten customers in the store, every one of them staring. Phil has to give you a push to get you moving. At least he didn't have you handcuffed, right?[paragraph break]As you step onto the tarmac, you realize this is actually happening. The parking lot looms before you.[paragraph break][if Phil is candid-about-spanking]Sure, you weren't about to let this creep lay his hands on your ass[otherwise]True, the whole thing about punishment was weird, and what you did [italic type]was[roman type] wrong[end if].[paragraph break]But still... maybe, just maybe, this was a mistake.";
+	end the story saying "The End".
+
+Instead of going outside in the Back Room: choose dignity above expedience.
+
+Instead of requesting Phil for punishment while Rock_and_hard_place is happening:
+	say "'All right,' you tell him. 'I'll choose, uh, punishment.'[paragraph break]'Hmpf. Thought you might. But you have to ask for it.'[paragraph break]'Okay. Uhm. Please [if Phil is candid-about-spanking]spank[otherwise]punish[end if] me, Mister.'[paragraph break]'All right. Get on your feet.'";
+	now the player is decided-on-spanking;
+	if Phil is not candid-about-spanking, try quizzing Phil about punishment.
 
 Rock_and_hard_place ends when yourself is decided-on-spanking.
 
