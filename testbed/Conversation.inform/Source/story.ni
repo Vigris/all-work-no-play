@@ -54,6 +54,8 @@ Phil can be waiting-for-answer or just-shooting-the-breeze. Phil is just-shootin
 
 Chapter - The conversation
 
+Section - Proposition
+
 Rock_and_hard_place is a scene. Rock_and_hard_place begins when play begins.
 
 punishment is a familiar thing. Understand "spanking" as punishment when Rock_and_hard_place is happening.
@@ -69,7 +71,7 @@ To say (x - text) as Phil's punishment question:
 	now Phil is just-shooting-the-breeze;
 	say x.
 
-After quizzing Phil about punishment, say "[one of]'Spanking?' You swallow. 'Like, you know..?'[paragraph break]'So now you're paying attention, huh? Yeah, you heard right. Betcha a dozen hard smacks will teach what happens to misbehaving brats. Or not.' He snorts. 'Anyway, you take your lumps with good grace, then nobody'll have to take this further. You'll be free to go.'[or]You don't think he's going to budge. Either a spanking, or to the station with you.[stopping]" as Phil's punishment question.
+After quizzing Phil about punishment, say "[one of]'Spanking?' You swallow. 'Like, you know..?'[paragraph break]'So now you're paying attention, huh? Yeah, you heard right. Betcha a dozen hard smacks will teach what happens to misbehaving brats. Or not.' He snorts. 'Anyway, you take your lumps with good grace, then nobody'll have to take this further. You'll be free to go.'[or]You don't think he's going to budge. Either a spanking, or to the station with you.[stopping][paragraph break]" as Phil's punishment question.
 
 The block saying yes rule does nothing when Phil is waiting-for-answer.
 The block saying no rule does nothing when Phil is waiting-for-answer.
@@ -82,7 +84,7 @@ After saying no while Phil is waiting-for-answer, say "'No,' you say, trying to 
 
 Every turn during Rock_and_hard_place: say "[if Phil is waiting-for-answer][Phil] looks like he's expecting a reply.[otherwise][italic type]You can ask about [the station] or [the punishment]. Or you could choose either one[roman type].[end if] "
 	
-the police station is a familiar thing.
+the police station is a familiar thing. 
 After quizzing Phil about the police station while Phil is not waiting-for-answer for the first time, say "Phil looks you over from head to toe. 'All you need to do is to walk out that door. Don't worry, I hear you can have a chance at clearing your record in five years, easy.'"
 After quizzing Phil about the police station while Phil is not waiting-for-answer for the second time, say "'Don't worry, I'm sure your folks will be thrilled to hear what their little princess's been up to.'"
 After quizzing Phil about the police station while Phil is not waiting-for-answer, say "'Won't mommy and daddy be proud when they pick you up.'"
@@ -100,16 +102,29 @@ To choose dignity above expedience:
 	say "'[if Phil is candid-about-spanking]Screw you, I'm not playing your sick games[otherwise]I think it'd be best if I just get this over with[end if],' you tell him. 'Take me to the station[if Phil is candid-about-spanking] already[otherwise], please[end if].'[paragraph break]Outside, in the corridor, you collect your things under Phil's watchful gaze. The walk through the shop seems eternal. There's at least ten customers in the store, every one of them staring. Phil has to give you a push to get you moving. At least he didn't have you handcuffed, right?[paragraph break]As you step onto the tarmac, you realize this is actually happening. The parking lot looms before you.[paragraph break][if Phil is candid-about-spanking]Sure, you weren't about to let this creep lay his hands on your ass[otherwise]True, the whole thing about punishment was weird, and what you did [italic type]was[roman type] wrong[end if].[paragraph break]But still... maybe, just maybe, this was a mistake.";
 	end the story saying "The End".
 
-Instead of going outside in the Back Room: choose dignity above expedience.
+Instead of going outside in the Back Room, choose dignity above expedience.
 
 Instead of requesting Phil for punishment while Rock_and_hard_place is happening:
 	say "'All right,' you tell him. 'I'll choose, uh, punishment.'[paragraph break]'Hmpf. Thought you might. But you have to ask for it.'[paragraph break]'Okay. Uhm. Please [if Phil is candid-about-spanking]spank[otherwise]punish[end if] me, Mister.'[paragraph break]'All right. Get on your feet.'";
 	now the player is decided-on-spanking;
 	if Phil is not candid-about-spanking, try quizzing Phil about punishment.
 
-Rock_and_hard_place ends when yourself is decided-on-spanking.
+Instead of saying goodbye to Phil while Rock_and_hard_place is happening, say "'If you're asking for the police station, just say so,' Phil says. 'I'd be happy to drive you there myself.'"
 
 Understand "choose [any known thing]" as implicit-requesting when Rock_and_hard_place is happening.
 Understand "select [any known thing]" as implicit-requesting when Rock_and_hard_place is happening.
 Understand "pick [any known thing]" as implicit-requesting when Rock_and_hard_place is happening.
+Rock_and_hard_place ends when yourself is decided-on-spanking.
+
+
+Section - The spanking game
+
+To decide whether it's time to spank a shoplifter:
+	if the player is not in the Back Room, no;
+	if the Rock_and_hard_place has not ended, no;
+	if the player is on the chair, no;
+	yes.
+
+Instead of voicing when it's time to spank a shoplifter, say "You open your mouth to say something.[paragraph break]'Ah ah ah!' Phil cuts you off. 'You don't get to talk.'"
+
 
