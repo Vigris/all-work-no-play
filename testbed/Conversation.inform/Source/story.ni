@@ -41,6 +41,11 @@ Chapter - Player
 The description of the player is "You have a bit of the pixie thing going, all wide eyes and fine-boned features. Together with your schoolgirl uniform and light makeup, that lends you a very sweet and innocent appearance."
 
 The player wears a schoolgirl uniform. The description of the schoolgirl uniform is "A white blouse, a vest, thigh-length plaid skirt, and some shiny black shoes. All nice and proper." 
+A thing can be raisable. 
+The plaid skirt is part of the schoolgirl uniform. The plaid skirt is raisable. The plaid skirt can be raised or lowered. The plaid skirt is lowered.
+
+To readjust clothing: now the plaid skirt is lowered.
+
 Instead of taking off the schoolgirl uniform, say "This is far too public for you to do that."
 
 Chapter - Phil the Security Guard
@@ -118,6 +123,24 @@ Rock_and_hard_place ends when yourself is decided-on-spanking.
 
 
 Section - The spanking game
+
+When Rock_and_hard_place ends: say "Phil moves up behinds you. There's a scrape as he pushes the metal chair to the side.[paragraph break]'Good,' he says. 'Now lift up your skirt.'"
+	
+Raising is an action applying to one thing. Understand "raise [something]" or "lift [something]" as raising.
+Lowering is an action applying to one thing. Understand "lower [something]" or "release [something]" as lowering.
+
+To raise is a verb.
+Check raising a not raisable thing: say "[Those] [are not] something that [can be] [past participle of the verb raise]." instead.
+Check raising a thing when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb raise]." instead.
+Check raising a thing when the noun is raised: say "[Those] [are] already [past participle of the verb raise]." instead.
+Carry out raising something: now the noun is raised.
+Report raising something: say "[We] [raise] up [the noun]."
+
+To lower is a verb. To release is a verb. To fall is a verb.
+Check lowering a thing which is not raisable: say "[Those] [are not] something that [can be] [past participle of the verb lower]." instead.
+Check lowering a thing when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb lower]." instead.
+Check lowering a thing when the noun is lowered: say "[Those] [are] already [past participle of the verb lower]." instead.
+Report lowering something: say "[We] [release] [our] grip on [the noun], and [it] [fall] back down into place."
 
 To decide whether it's time to spank a shoplifter:
 	if the player is not in the Back Room, no;
