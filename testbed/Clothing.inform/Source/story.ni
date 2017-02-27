@@ -28,10 +28,10 @@ feet-area
 
 A body-item is a kind of thing. 
 A body part is a kind of body-item.
-A garment is a kind of body-item. Some kinds of garments are defined by the Table of Top-Half Archetypal Garments.
+A garment is a kind of body-item. Some kinds of garments are defined by the Table of Archetypal Garments.
 Dress-method is a kind of value. Dress-methods are headfirst, legs-first, and arms-first.
 
-Table of Top-Half Archetypal Garments
+Table of Archetypal Garments
 name	access-direction
 hat	headfirst
 sleeveless top	headfirst
