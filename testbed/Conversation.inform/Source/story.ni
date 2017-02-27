@@ -20,6 +20,11 @@ Saying no is voicing.
 Saying sorry is voicing.
 
 
+Chapter - Provisional garment system
+
+
+
+
 Chapter - Back Room
 
 The Back Room is a room. "This is an unused room behind the stocks. A spare guard uniform hangs from a hook on the wall. Aside from a [coffee table] and a [cheap metal chair], the room is unfurnished. [first time]
@@ -40,9 +45,22 @@ Chapter - Player
 
 The description of the player is "You have a bit of the pixie thing going, all wide eyes and fine-boned features. Together with your schoolgirl uniform and light makeup, that lends you a very sweet and innocent appearance."
 
-The player wears a schoolgirl uniform. The description of the schoolgirl uniform is "A white blouse, a vest, thigh-length plaid skirt, and some shiny black shoes. All nice and proper." 
-A thing can be raisable. 
-The plaid skirt is part of the schoolgirl uniform. The plaid skirt is raisable. The plaid skirt can be raised or lowered. The plaid skirt is lowered.
+An ensemble is a kind of thing.
+A garment is a kind of thing. A garment can be worn. A garment can be raisable. A garment can be raised or lowered. A garment is usually lowered.
+
+Accessorizing relates one ensemble to various garments. The verb to be comprised of implies the accessorizing relation. The verb to comprise implies the reversed accessorizing relation.
+The white blouse, the vest, the plaid skirt, some black shoes and some cotton panties comprise the schoolgirl uniform.
+The skirt is raisable.
+
+The description of the schoolgirl uniform is "A white blouse, a vest, thigh-length plaid skirt, and some shiny black shoes. All nice and proper."
+
+After deciding the scope of the player:
+	repeat with item running through ensembles:
+		if something which comprises the item is enclosed by the location, place the item in scope.
+
+When play begins, now the player wears everything that comprises the schoolgirl uniform.
+
+[The player wears a schoolgirl uniform. The description of the schoolgirl uniform is "A white blouse, a vest, thigh-length plaid skirt, and some shiny black shoes. All nice and proper."]
 
 To readjust clothing: now the plaid skirt is lowered.
 
@@ -130,16 +148,16 @@ Raising is an action applying to one thing. Understand "raise [something]" or "l
 Lowering is an action applying to one thing. Understand "lower [something]" or "release [something]" as lowering.
 
 To raise is a verb.
-Check raising a not raisable thing: say "[Those] [are not] something that [can be] [past participle of the verb raise]." instead.
-Check raising a thing when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb raise]." instead.
-Check raising a thing when the noun is raised: say "[Those] [are] already [past participle of the verb raise]." instead.
+Check raising a not raisable garment: say "[Those] [are not] something that [can be] [past participle of the verb raise]." instead.
+Check raising a garment when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb raise]." instead.
+Check raising a garment when the noun is raised: say "[Those] [are] already [past participle of the verb raise]." instead.
 Carry out raising something: now the noun is raised.
 Report raising something: say "[We] [raise] up [the noun]."
 
 To lower is a verb. To release is a verb. To fall is a verb.
-Check lowering a thing which is not raisable: say "[Those] [are not] something that [can be] [past participle of the verb lower]." instead.
-Check lowering a thing when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb lower]." instead.
-Check lowering a thing when the noun is lowered: say "[Those] [are] already [past participle of the verb lower]." instead.
+Check lowering a garment which is not raisable: say "[Those] [are not] something that [can be] [past participle of the verb lower]." instead.
+Check lowering a garment when the noun is not worn by the player and the noun is part of something which is not worn by the player: say "[We] [need] to wear [them] before [they] [can be] [past participle of the verb lower]." instead.
+Check lowering a garment when the noun is lowered: say "[Those] [are] already [past participle of the verb lower]." instead.
 Report lowering something: say "[We] [release] [our] grip on [the noun], and [it] [fall] back down into place."
 
 To decide whether it's time to spank a shoplifter:

@@ -1,7 +1,12 @@
-.DS_Store
+Clothing.materials/Release
+Clothing.inform/Build
+Clothing.inform/Metadata.iFiction
+Clothing.inform/Release.blurb
+Clothing.inform/manifest.plist
+Clothing.inform/Skein.skein
+Clothing.inform/Settings.plist
 Conversation.materials/Release
 Conversation.inform/Build
-Conversation.inform/Index
 Conversation.inform/Metadata.iFiction
 Conversation.inform/Release.blurb
 Conversation.inform/manifest.plist
